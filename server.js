@@ -82,4 +82,12 @@ client.on("message", async message => {
   );
 });
 
+
+
+const fetch = require('node-fetch')
+
+setInterval(async () => {
+  await fetch('https://chill-pepper-shade.glitch.me').then(console.log('Pinged!'))
+}, 240000)
+
 client.login(Token);
