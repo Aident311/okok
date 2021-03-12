@@ -1,3 +1,3 @@
-exports.Prefix = `>`;//your prefix for bot
-exports.Token = `Nzk3NzI4MDY3MzcxNjYzNDMx.X_qsKA.Ti_JE2xO47yZrBurixgNirjZ-MI`;//your token 
-exports.Color = `BLUE`;//color   of embed
+exports.Prefix = `!`;//your prefix for bot
+exports.Token = `ODE5OTM1NzE5NTE4NTAyOTcz.YEt2pQ.68oLDmt0ERAwH8i_Vu_BHuE2hhM`;//your token 
+exports.Color = `WHITE`;//color   of embed
