@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const client = new Discord.Client();
 const { Prefix, Token, Color } = require("./config.js");
-const welcome = require("./welcome");
+
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.db = require("quick.db");
