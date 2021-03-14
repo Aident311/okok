@@ -82,6 +82,13 @@ client.on("message", async message => {
     `User : ${message.author.tag} (${message.author.id}) Server : ${message.guild.name} (${message.guild.id}) Command : ${command.name}`
   );
 });
+const welcome = require('./welcome')
+
+client.on('ready', () => {
+  console.log('The client is ready!')
+
+  welcome(client)
+})
 
 
 
